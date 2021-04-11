@@ -1,4 +1,4 @@
-# Disentangled Contrastive Learning for LearningRobust Textual Representations (DCL)
+# Disentangled Contrastive Learning for Learning Robust Textual Representations (DCL)
 
 ## Requirements
 
