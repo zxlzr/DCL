@@ -1,5 +1,7 @@
 # Disentangled Contrastive Learning for Learning Robust Textual Representations (DCL)
 
+Code for the CICAI paper [Disentangled Contrastive Learning for Learning Robust Textual Representations](https://arxiv.org/pdf/2201.03335.pdf).
+
 ## Requirements
 
 * To install basic requirements:
@@ -71,6 +73,41 @@ python ./utils/attack.py           # for openattack data augmentation
 --model_path bert-base-uncased
 --output_file ./adv_data/CoLA
 --attacker pw          
+```
+
+# Citation
+If you use the code, please cite the following paper:
+
+
+```bibtex
+@inproceedings{DBLP:conf/cicai/ChenXBYDZC21,
+  author    = {Xiang Chen and
+               Xin Xie and
+               Zhen Bi and
+               Hongbin Ye and
+               Shumin Deng and
+               Ningyu Zhang and
+               Huajun Chen},
+  editor    = {Lu Fang and
+               Yiran Chen and
+               Guangtao Zhai and
+               Z. Jane Wang and
+               Ruiping Wang and
+               Weisheng Dong},
+  title     = {Disentangled Contrastive Learning for Learning Robust Textual Representations},
+  booktitle = {Artificial Intelligence - First {CAAI} International Conference, {CICAI}
+               2021, Hangzhou, China, June 5-6, 2021, Proceedings, Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13070},
+  pages     = {215--226},
+  publisher = {Springer},
+  year      = {2021},
+  url       = {https://doi.org/10.1007/978-3-030-93049-3\_18},
+  doi       = {10.1007/978-3-030-93049-3\_18},
+  timestamp = {Fri, 14 Jan 2022 09:56:37 +0100},
+  biburl    = {https://dblp.org/rec/conf/cicai/ChenXBYDZC21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 
