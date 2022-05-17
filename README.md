@@ -1,6 +1,6 @@
 # Disentangled Contrastive Learning for Learning Robust Textual Representations (DCL)
 
-Code for the CICAI paper [Disentangled Contrastive Learning for Learning Robust Textual Representations](https://arxiv.org/pdf/2201.03335.pdf).
+Code for the CICAI paper [Disentangled Contrastive Learning for Learning Robust Textual Representations](https://arxiv.org/pdf/2104.04907.pdf).
 
 ## Requirements
 
